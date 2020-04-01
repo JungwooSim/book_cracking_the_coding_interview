@@ -1,3 +1,5 @@
+package chapter_9.ArrayAndString_01;
+
 class problem {
 	public static void main(String[] args) {
 		// result = problem_2("dew", "wde");
@@ -98,7 +100,7 @@ class problem {
 			   문자열의 최종 길이가 함께 주어진다고 가정해도 된다.
 			   (자바로 구현한다면 배열 안에서 작업할 수 있도록 문자 배열(character array)를 이용하길 바란다.)
 	*/
-	public static boolean problem_3(String content, int trueLength) {
+	public static void problem_3(String content, int trueLength) {
 		int spaceCount = 0;
 		int index;
 		int i = 0;
