@@ -26,9 +26,7 @@ public class problem {
         Object[] doubleArgs = new Object[] {4.2, 3.9};
 
         // 클래스 가져오기
-        Class rectangleDefinition = Class.forName("Myproj.Rectangle");
-
-        //
+//        Class rectangleDefinition = Class.forName("Myproj.Rectangle");
     }
 
     /*
@@ -37,24 +35,24 @@ public class problem {
     대륙의 이름과 국가의 리스트가 주어졌을 때 주어진 대륙의 총 인구수를 계산하는 메서드
     getPopulation(List<Country> countries, String continent)를 작성하라.
      */
-    public void plobelm_07 (List<Country> countries, String continent) {
-
-        // 국가 필터
-        Stream<Country> nortAmerica = countries.stream().filter(
-            country -> {
-                return country.getContinent().equals(continent);
-            }
-        );
-
-        // 인구수 리스트 변환
-        Stream<Integer> populations = northAmerica.map(
-                c -> c.getPopulation()
-        );
-
-        // 리스트 합계
-        int population = populations.reduce(0, (a, b) -> a + b);
-
-        System.out.println("합계 : "+population);
-    }
+//    public void plobelm_07 (List<Country> countries, String continent) {
+//
+//        // 국가 필터
+//        Stream<Country> nortAmerica = countries.stream().filter(
+//            country -> {
+//                return country.getContinent().equals(continent);
+//            }
+//        );
+//
+//        // 인구수 리스트 변환
+//        Stream<Integer> populations = northAmerica.map(
+//                c -> c.getPopulation()
+//        );
+//
+//        // 리스트 합계
+//        int population = populations.reduce(0, (a, b) -> a + b);
+//
+//        System.out.println("합계 : "+population);
+//    }
 
 }
