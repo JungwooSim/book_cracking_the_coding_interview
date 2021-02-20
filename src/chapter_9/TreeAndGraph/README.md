@@ -43,6 +43,7 @@
   - Complete Binary Tree 이며, 각 노드의 원소가 자식들의 원소보다 작다.
   - 따라서, 루트는 트리 전체에서 가장 작은 원소가 된다.
 <img src="/src/chapter_9/TreeAndGraph/img/img-5.png" width="500px;">    
+
 - insert, extract-min 연산이 있음
   - insert (삽입)
     1. Complete Binary Tree 의 속성에 위배 되지 않게 새로운 원소는 밑바닥 가장 오른쪽 위치에 삽입
